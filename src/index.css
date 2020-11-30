@@ -1,0 +1,61 @@
+/* ================= General ==================== */
+body {
+  font-family: "Bitter", serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #525252;
+  background-color: #f1f5f5;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased !important;
+}
+html {
+  font-family: "Poppins", sans-serif !important;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* Link style
+/* ------------------------------ */
+a {
+  color: #3f4b5a;
+}
+a,
+a > * {
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  color: #ffa000;
+  outline: none;
+  text-decoration: none;
+}
+/* Transition elements
+/* ------------------------------ */
+a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 03s ease;
+  transition: all 0.3s ease;
+}
+ul,
+ol {
+  padding-left: 0;
+}
+
+/* Main elements
+/* ------------------------------ */
+.contactAppWrapper {
+  padding: 60px 0;
+}
+.contactAppWrapper h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}

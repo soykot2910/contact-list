@@ -1,0 +1,150 @@
+.singleContactWrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 30px 40px 0 rgba(25, 25, 25, 0.15);
+  -webkit-box-shadow: 0 30px 40px 0 rgba(25, 25, 25, 0.15);
+  -moz-box-shadow: 0 30px 40px 0 rgba(25, 25, 25, 0.15);
+  -ms-box-shadow: 0 30px 40px 0 rgba(25, 25, 25, 0.15);
+  -o-box-shadow: 0 30px 40px 0 rgba(25, 25, 25, 0.15);
+}
+.contactPersonImg i {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #ffaa00;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.contactPersonInfo h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  color: #212121;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 26px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.contactPersonInfo h2:hover {
+  color: #ffaa00;
+}
+.contactPersonInfo p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.contactPersonInfo h3 {
+  margin: 0 0px 10px 0;
+  font-size: 18px;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contactPersonInfo .phone {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contactUtility {
+  display: flex;
+  padding: 15px 8px;
+  margin-top: 15px;
+  background-color: #ffaa00;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.moreInfo {
+  text-align: left;
+  margin-left: 8px;
+  flex-grow: 6;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.moreInfo p {
+  margin: 0;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.moreInfo i {
+  transform: translateX(0px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.moreInfo:hover {
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+
+  -o-transform: translateX(5px);
+}
+.moreInfo:hover i {
+  transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  opacity: 1;
+  visibility: visible;
+  font-size: 20px;
+}
+.editInfo {
+  flex-grow: 2;
+  cursor: pointer;
+}
+.editInfo i {
+  color: #fff;
+  font-size: 20px;
+}
+.deleteInfo {
+  flex-grow: 2;
+  cursor: pointer;
+}
+.deleteInfo i {
+  color: #fff;
+  font-size: 20px;
+}
+.likeInfo {
+  flex-grow: 2;
+  cursor: pointer;
+}
+.likeInfo i {
+  color: #fff;
+  font-size: 20px;
+}
